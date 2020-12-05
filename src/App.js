@@ -1,5 +1,5 @@
 import "./App.css";
-// TODO: Digital luxe Canada
+// TODO: Digital luxe India
 //* - Background Image Main
 //* - Digital Luxe Logo
 //* - Color palete - Metallic grey
