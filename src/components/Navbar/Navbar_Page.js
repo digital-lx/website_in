@@ -24,13 +24,7 @@ class NavbarPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      navItems: [
-        { id: 1, idnm: "home", navheading: "Home" },
-        { id: 2, idnm: "service", navheading: "Services" },
-        { id: 3, idnm: "features", navheading: "Features" },
-        { id: 4, idnm: "client", navheading: "Clients" },
-        { id: 5, idnm: "pricing", navheading: "Pricing" },
-      ],
+      navItems: props.navItems,
       isOpen: false,
       topPos: "0",
       isOpenMenu: false,

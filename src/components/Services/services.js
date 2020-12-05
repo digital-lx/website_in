@@ -15,67 +15,45 @@ class Services extends Component {
         icon: "pe-7s-exapnd2",
         description:
           "Nemo enim ipsam voluptatem quia voluptas sit aspernatur consequuntu.",
-        link: "#",
+        link: "/details/:0",
       },
       {
-        title: "Goal Business",
+        title: "Mobile Application",
         icon: "pe-7s-world",
         description:
           "These cases are perfectly simple and easy to distinguish that is a free hour.",
-        link: "#",
+        link: "/details/:1",
       },
       {
-        title: "Branding Identity",
+        title: "Digital Marketing",
         icon: "pe-7s-diamond",
         description:
           "Neque porro quisquam est qui dolorem ipsum quia dolor sit consectetur adipisci.",
-        link: "#",
+        link: "/details/:2",
       },
       {
-        title: "Digital Design",
+        title: "Search Engine Optimisation",
         icon: "pe-7s-paint-bucket",
         description:
           "At vero eos et accusamus iusto odio dignissimos qui blanditiis voluptatum.",
-        link: "#",
+        link: "/details/:3",
       },
       {
-        title: "Solutions Business",
+        title: "Content Creation",
         icon: "pe-7s-rocket",
         description:
           "Et harum quidem rerum facilis est et expedita distinctio libero tempore soluta.",
-        link: "#",
+        link: "/details/:4",
       },
       {
-        title: "Dynamic Growth",
+        title: "Graphic Designing",
         icon: "pe-7s-graph1",
         description:
           "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.",
-        link: "#",
+        link: "/details/:5",
       },
     ],
-    services1: [
-      {
-        title: "Digital Design",
-        icon: "pe-7s-paint-bucket",
-        description:
-          "At vero eos et accusamus iusto odio dignissimos qui blanditiis voluptatum.",
-        link: "#",
-      },
-      {
-        title: "Solutions Business",
-        icon: "pe-7s-rocket",
-        description:
-          "Et harum quidem rerum facilis est et expedita distinctio libero tempore soluta.",
-        link: "#",
-      },
-      {
-        title: "Dynamic Growth",
-        icon: "pe-7s-graph1",
-        description:
-          "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.",
-        link: "#",
-      },
-    ],
+   
   };
   render() {
     return (

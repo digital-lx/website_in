@@ -9,7 +9,11 @@ import NavbarPage from "../../components/Navbar/Navbar_Page";
 import Pricing from "../../components/Pricing/pricing";
 import Section from "./section";
 import Services from "../../components/Services/services";
-
+const navItems =[
+  { id: 1, idnm: "home", navheading: "Home" },
+  { id: 2, idnm: "service", navheading: "Services" },
+  { id: 4, idnm: "client", navheading: "Clients" },
+]
 class Landing extends Component {
   constructor(props) {
     super(props);
@@ -27,6 +31,7 @@ class Landing extends Component {
   }
 
   componentWillUnmount() {
+
     window.removeEventListener("scroll", this.scrollNavigation, true);
   }
 
@@ -51,6 +56,7 @@ class Landing extends Component {
         {/* Importing Navbar */}
 
         <NavbarPage
+        navItems={navItems}
           navclass={this.state.navClass}
           imglight={this.state.imglight}
           isStickyNav={this.state.isStickyNav}
