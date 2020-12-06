@@ -11,6 +11,73 @@ export const services_data = [
           basic:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
           pro:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
           exclusive:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance']
-        }
+        },
+
+        id:1,
+        features:{
+          title:'Mobile Application',
+          subtitle:'A Continuous Evolution',
+          section_title:'Mobile Application Development',
+          body:' Dive into the world of mobility with your unique ideas transforming into incredible apps for your business requirements. We can assist you amplify your business productivity with phenomenal mobile app solutions.We(company name) provides only secure and optimal performing solutions that deliver at all hierarchical positions – from the higher-executive right down to frontline workers. Our extensive knowledge in mobile app development enables us to find the right approach and deliver optimal enterprise mobile apps development services, as we address complications such as data security risks, insufficient employee productivity or unstructured employee supervision etc.Our mobile-app solutions comprise of speed, better customer engagement, revenue maximization, and sky-scraping productivity. This is because we are an all-round mobile software development company offering all-inclusive services – from consultation to solution integration, deployment and market launch.',
+        },
+        packages:{
+          basic:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          pro:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          exclusive:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance']
+        },
+
+        id:3,
+        features:{            
+          title:'Digital Marketing',
+          subtitle:'Tell a story. Make it true. Make it compelling. And make it relevant',
+          section_title:'Why Choose Us For Digital Marketing Services?',
+          body:'(COMPANY NAME) is a full-service digital marketing company, best known for generating revenue and creating measurable success with our Digital Marketing Services. Our comprehensive digital marketing strategy allows you to analyse, engage, and convert your target audience in real-time. As a prominent digital marketing company, our digital marketing services will help you deliver exceptional sales conversions and ROI for your clients. A properly well-planned and targeted digital marketing campaign can attract the right customers at a much lower cost than traditional marketing methods.Your product campaign or website allows you to find new markets and trade globally for only a small investment.Your visitors may turn out to be your customers if you have a good website or offer them a product with good deals with just a few clicks.Track various metrics like impressions, clicks, comments, shares, conversions, and more for your campaign to know how it’s performing.With digital marketing services, you can provide solutions to their problems or resolve their queries and guide them by offering live chat access.Digital marketing offers a better return for your small investment. As it cost little when compared to traditional marketing.',
+        },
+        packages:{
+          basic:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          pro:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          exclusive:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance']
+        },
+
+        id:3,
+        features:{            
+          title:'Search Engine Optimisation',
+          subtitle:'Integrating your search and social efforts brings better brand visibility and higher conversion rates',
+          section_title:'why is SEO important ?',
+          body:'(COMPANY NAME) is a reputed SEO agency, offering the best Search Engine Optimization (SEO) services. Our affordable and effective SEO services take care of tall the important aspects of your business to increase your search engine rank. Our experienced SEO experts come up with the new strategy and execute the plan to earn your website a higher ranking in search results which directly create a positive impact on the online traffic engagements, internet marketing, online product reputation, and online ranking of your brand/product. Implementing strategic partnerships and building flawless relationships with our clients, we have been able to maintain a client retention rate above 99%. As a prominent SEO company, our aim is to have a steady and consistent flow of new business each month. By leveraging our SEO service, we ensure that your website stays relevant for your customers, that it brings you the most relevant leads and conversions',
+        },
+        packages:{
+          basic:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          pro:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          exclusive:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance']
+        },
+
+        id:4,
+        features:{      
+          title:'Content Creation',
+          subtitle:'Strategic Partnerships',
+          section_title:-'Why contain Creation is Important ?',
+          body:'Businesses benefit greatly from providing audiences with value-added content. A well-developed content marketing plan delivers content to audiences at the right place and time. Strategic release of educational articles, e-books, video, podcasts and other engaging forms of content offer audiences a unique way to engage with your business.Executing a strong email marketing strategy will keep your audience engaged and up to date with current or trending business information. Demonstrating a unique personal connection, email marketing can increase sales and generate loyalty. Promotions, event information, customer follow-ups, and more are all part of a well-planned email marketing strategy.',
+        },
+        packages:{
+          basic:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          pro:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          exclusive:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance']
+        },
+
+        id:5,
+        features:{
+            
+        title:'Graphic Designing',
+        subtitle_:-'What catches the eye, captures the mind',
+        section_title:'If design isn’t profitable, then it’s' ,
+        body:'Our team of talented designers create memorable designs, and with few words tell stories that speak directly to the core of your brand identity. From labels to logos, billboards to Facebook advertisements, strong consistent graphic design communicates identity and brand values regardless of where it appears.We have a deep and thorough understanding of consumer packaged goods (CPG) and have extensive experience across hospitality and tourism, retail, food and beverage (F&B), alcohol, sports nutrition and more. Our design experts will guide you through specs, sizing, materials etc. all of the magic that goes into creating labels and packages that stand out and grab attention.',
+        },
+        packages:{
+          basic:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          pro:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance'],
+          exclusive:['15 screens', 'responsive layout', '1 year vps hosting', '3 months maintenance']
+        },
+        
     }
 ]
