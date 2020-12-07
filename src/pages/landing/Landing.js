@@ -69,7 +69,7 @@ class Landing extends Component {
         <Services />
 
         {/* import Features */}
-        <Features />
+    
 
         {/* import Achievement */}
         <Achievement />
@@ -78,7 +78,7 @@ class Landing extends Component {
         <Clients />
 
         {/* import Pricing */}
-        <Pricing />
+        
 
         {/* import ContactUs */}
         <ContactUs />

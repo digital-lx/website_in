@@ -4,3 +4,4 @@ const routes = [{ path: "/", component: Landing },{ path: "/details", component:
 
 export default routes;
 
+
