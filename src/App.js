@@ -36,7 +36,7 @@ class App extends Component {
         <Router>
           <Switch>
             {routes.map((route, idx) => (
-              <Route path={route.path} component={route.component} key={idx} />
+              <Route path={route.path} exact component={route.component} key={idx} />
             ))}
           </Switch>
         </Router>

@@ -1,22 +1,27 @@
-import React, { Component } from "react";
 import {
-  Container,
-  Navbar,
   Collapse,
+  Container,
   Nav,
   NavItem,
   NavLink,
-  NavbarToggler,
+  Navbar,
   NavbarBrand,
+  NavbarToggler,
 } from "reactstrap";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ScrollspyNav from "./scrollSpy";
+import StickyHeader from "react-sticky-header";
+import logo_digital from '../../assets/images/logo_digital.png'
+import logodark from "../../assets/images/logo-dark.png";
+import logolight from "../../assets/images/logo-light.png";
 
 //Import Stickey Header
-import StickyHeader from "react-sticky-header";
 
-import logolight from "../../assets/images/logo-light.png";
-import logodark from "../../assets/images/logo-dark.png";
+
+
+
+
 
 class NavbarPage extends Component {
   prevScrollpos = 0;
@@ -92,7 +97,7 @@ class NavbarPage extends Component {
               <Container>
                 <NavbarBrand href="/" className="logo">
                   <img
-                    src={this.props.imglight ? logolight : logodark}
+                    src={this.props.imglight ? logo_digital : logodark}
                     alt=""
                     className="logo-light"
                     height={32}
