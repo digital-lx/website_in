@@ -39,7 +39,7 @@ class Features extends Component {
               <div className="col-lg-5 offset-lg-1">
                 <div className="pr-lg-5 mt-4">
                   <h4 className="line-height-1_6 text-dark mb-4">
-                   {this.props.title}
+                   {this.props.features.section_title}
                      <span className="font-weight-600"></span>
                   </h4>
                   <p className="text-muted mb-4 f-15">

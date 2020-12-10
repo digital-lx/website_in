@@ -14,42 +14,42 @@ class Services extends Component {
         title: "Responsive Web Application",
         icon: "pe-7s-exapnd2",
         description:
-          "Nemo enim ipsam voluptatem quia voluptas sit aspernatur consequuntu.",
+          "Your Digital Storefront",
         link: "/details?id=0",
       },
       {
         title: "Mobile Application",
         icon: "pe-7s-world",
         description:
-          "These cases are perfectly simple and easy to distinguish that is a free hour.",
+          "Creative application developing ideas  that you cannot deny",
         link: "/details?id=1",
       },
       {
         title: "Digital Marketing",
         icon: "pe-7s-diamond",
         description:
-          "Neque porro quisquam est qui dolorem ipsum quia dolor sit consectetur adipisci.",
+          "Tell a story. Make it true. Make it compelling. And make it relevant",
         link: "/details?id=2",
       },
       {
         title: "Search Engine Optimisation",
         icon: "pe-7s-paint-bucket",
         description:
-          "At vero eos et accusamus iusto odio dignissimos qui blanditiis voluptatum.",
+          "Integrating your search and social efforts brings better brand visibility and higher conversion rates",
         link: "/details?id=3",
       },
       {
         title: "Content Creation",
         icon: "pe-7s-rocket",
         description:
-          "Et harum quidem rerum facilis est et expedita distinctio libero tempore soluta.",
+          "The best salespeople are confident and convincing – their product has the solution to your problems",
         link: "/details?id=4",
       },
       {
         title: "Graphic Designing",
         icon: "pe-7s-graph1",
         description:
-          "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.",
+          "The role of the designer is that of a good, thoughtful host anticipating the needs of his guests.",
         link: "/details?id=5",
       },
     ],
