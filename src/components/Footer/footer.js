@@ -6,7 +6,7 @@ import { Container, Row, Col } from "reactstrap";
 import FooterLinks from "./footer-links";
 
 //Import Images
-import footerlogo from "../../assets/images/logo-dark.png";
+import footerlogo from "../../assets/images/logo1_light.svg";
 
 class Footer extends Component {
   state = {
