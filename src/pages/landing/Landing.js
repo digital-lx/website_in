@@ -10,9 +10,9 @@ import Pricing from "../../components/Pricing/pricing";
 import Section from "./section";
 import Services from "../../components/Services/services";
 const navItems =[
-  { id: 1, idnm: "home", navheading: "Home" },
-  { id: 2, idnm: "service", navheading: "Services" },
-  { id: 4, idnm: "client", navheading: "Clients" },
+  { id: 1, idnm: "home", navheading: "Home",path:'/' },
+  { id: 2, idnm: "service", navheading: "Services",path:'/details' },
+  // { id: 4, idnm: "client", navheading: "Clients",path:'/clients' },
 ]
 class Landing extends Component {
   constructor(props) {
@@ -75,7 +75,7 @@ class Landing extends Component {
         <Achievement />
 
         {/* import Clients */}
-        <Clients />
+        {/* <Clients /> */}
 
         {/* import Pricing */}
         

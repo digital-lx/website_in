@@ -14,8 +14,8 @@ import {services_data} from '../../src/assets/data'
 */
 const navItems =[
     { id: 1, idnm: "home", navheading: "Home" , path:'/' },
-    { id: 2, idnm: "service", navheading: "Services", path:'' },
-    { id: 4, idnm: "client", navheading: "Clients" },
+    { id: 2, idnm: "service", navheading: "Services", path:'/' },
+    { id: 4, idnm: "client", navheading: "Clients",path:'/' },
   ]
 class Details extends Component {
   constructor(props) {

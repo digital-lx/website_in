@@ -34,12 +34,10 @@ class Section extends Component {
               <Col lg={8}>
                 <div className="text-center">
                   <h1 className="text-white hero-3-title mb-4 line-height-1_4">
-                    Create amazing landing page with Modzy
+                    Create amazing landing page with Digital Luxe
                   </h1>
                   <p className="text-white-50 w-75 mx-auto f-15">
-                    Sed ut perspiciatis that is a unde omnis iste natus error
-                    sit voluptatem accusantium inventore veritatis that is sunt
-                    explicabo.
+                  At Digital Luxe, we work with famous brands, web design, web development & mobile app based and all industries companies and global agencies. Whether you are just starting out or evolving your business, we offers the expertise in custom & creative web design, web development, mobile app development that will take you to the next level from Website Design Company.
                   </p>
                 </div>
               </Col>
