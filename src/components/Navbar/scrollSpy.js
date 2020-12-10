@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Navbar } from "reactstrap";
 
 class ScrollspyNav extends Component {
   constructor(props) {
@@ -76,7 +77,7 @@ class ScrollspyNav extends Component {
         navLink.addEventListener("click", (event) => {
           event.preventDefault();
           let sectionID = this.getNavToSectionID(navLink.getAttribute("href"));
-
+         
           if (sectionID) {
             let scrollTargetPosition =
               document.getElementById(sectionID).offsetTop -
@@ -142,6 +143,9 @@ class ScrollspyNav extends Component {
         }
       });
     }else{
+      let navbar=document.querySelector('.navbar-custom');
+      navbar.style.background="#6c757d"
+      
       return;
     }
     

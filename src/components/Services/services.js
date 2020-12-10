@@ -63,7 +63,6 @@ class Services extends Component {
           <Container>
             <SectionTitle
               title="Cloud Service"
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed consequuntur as sequi nesciunt."
             />
             <Row style={{ zIndex: 1 }}>
               <ServiceBox services={this.state.services} />

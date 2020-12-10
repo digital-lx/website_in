@@ -22,7 +22,7 @@ class Features extends Component {
           <Container>
             <SectionTitle
               title={this.props.features.title}
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed consequuntur as sequi nesciunt."
+              description={this.props.features.subtitle}
             />
 
             <Row className="align-items-center">
@@ -40,7 +40,7 @@ class Features extends Component {
                 <div className="pr-lg-5 mt-4">
                   <h4 className="line-height-1_6 text-dark mb-4">
                    {this.props.title}
-                     <span className="font-weight-600">{this.props.features.sub_title}</span>
+                     <span className="font-weight-600"></span>
                   </h4>
                   <p className="text-muted mb-4 f-15">
                     {this.props.features.body}
