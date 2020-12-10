@@ -1,8 +1,11 @@
+import { Col, Container, Row } from "reactstrap";
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+
+import SectionTitle from "../Common/SectionTitle";
+import  {services_data} from '../../assets/data'
 
 //Import Section Title
-import SectionTitle from "../Common/SectionTitle";
+
 
 class Pricing extends Component {
   pricingPlan1 = {
@@ -48,7 +51,7 @@ class Pricing extends Component {
         currency: "$",
         duration: "month",
         features: {
-          bandwith: "2GB",
+          bandwith: "4GB",
           onlinespace: "2GB",
           support: "No",
         },
