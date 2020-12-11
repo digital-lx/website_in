@@ -15,8 +15,8 @@ import StickyHeader from "react-sticky-header";
 import logo_digital from '../../assets/images/logo_digital.png'
 import logodark from "../../assets/images/logo-dark.png";
 import logolight from "../../assets/images/logo-light.png";
-import logo1 from '../../assets/images/logo1.png'
-import logo1_dark from '../../assets/images/logo1_dark.png'
+import logo1 from '../../assets/images/logo1_light.svg'
+import logo1_dark from '../../assets/images/logo1_dark.svg'
 
 //Import Stickey Header
 

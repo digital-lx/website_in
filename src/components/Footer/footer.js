@@ -2,23 +2,25 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
+
 //Import Footer link
 import FooterLinks from "./footer-links";
 
 //Import Images
-import footerlogo from "../../assets/images/logo-dark.png";
+import footerlogo from "../../assets/images/logo1_light.svg";
 
 class Footer extends Component {
   state = {
     footerItems: [
       {
-        title: "Product",
+        title: "Services",
         links: [
-          { linkTitle: "Tranding", link: "/" },
-          { linkTitle: "Popular", link: "#" },
-          { linkTitle: "Job Opening", link: "#" },
-          { linkTitle: "Customers", link: "#" },
-          { linkTitle: "Features", link: "#" },
+          { linkTitle: "Responsive Web Application", link: "/" },
+          { linkTitle: "Mobile Application", link: "#" },
+          { linkTitle: "Digital Marketing", link: "#" },
+          { linkTitle: "Search Engine Optimisation", link: "#" },
+          { linkTitle: "Content Creation", link: "#" },
+          { linkTitle: "Graphic Designing", link: "#" },
         ],
       },
       {
@@ -26,19 +28,12 @@ class Footer extends Component {
         links: [
           { linkTitle: "Works", link: "#" },
           { linkTitle: "Strategy", link: "#" },
-          { linkTitle: "Releases", link: "#" },
-          { linkTitle: "Press", link: "#" },
-          { linkTitle: "Mission", link: "#" },
         ],
       },
       {
         title: "Learn More",
         links: [
-          { linkTitle: "Developers", link: "#" },
           { linkTitle: "Support", link: "#" },
-          { linkTitle: "Customer Service", link: "#" },
-          { linkTitle: "Get Started", link: "#" },
-          { linkTitle: "Guide", link: "#" },
         ],
       },
     ],
@@ -65,8 +60,7 @@ class Footer extends Component {
                     className="img-fluid"
                   />
                   <p className="mt-4 text-muted f-15">
-                    Sed ut perspiciatis unde omnis iste a natus error scusantium
-                    doloremque rem explicabo.
+                    All of the rights reserved by Digital Luxe
                   </p>
                   <ul className="list-inline footer-icon mt-4">
                     {this.state.socialIcons.map((item, key) => (

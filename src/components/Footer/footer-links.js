@@ -8,7 +8,8 @@ class FooterLinks extends Component {
           <div className="col-lg-12">
             <div className="text-center mt-4">
               <p className="text-muted f-15 mb-0">
-                2019 © Modzy. Design By Themesdesign
+              Copyright Ⓒ 2020 Digital Luxe Services
+                      All rights reserved
               </p>
             </div>
           </div>
